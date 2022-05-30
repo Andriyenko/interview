@@ -23,7 +23,7 @@ metadata:
   name: nginx
   namespace: nginx
 spec:
-  replicas: 8
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
